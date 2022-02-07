@@ -1,0 +1,63 @@
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css";
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.header-1 {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.863);
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 55px;
+  overflow: hidden;
+}
+.evanto-logo {
+  height: 115px;
+  margin-top: -30px;
+  position: absolute;
+  left: 0px;
+}
+.button.is-success {
+  background-color: #6f9a37;
+  box-shadow: 0 2px 0 #6f9a37;
+  border-color: transparent;
+  color: #fff;
+  position: absolute;
+  right: 25px;
+  margin-top: 10px;
+  height: 34px;
+}
+.button.is-success:hover {
+  background-color: #6f9a37;
+}
+.header-2 {
+  position: absolute;
+  top: 55px;
+  left: 0px;
+  height: 100px;
+  right: 0px;
+  background-color: rgba(196, 191, 191, 0.233);
+}
+.miver-logo {
+  height: 37px;
+}
+.header-2a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 205px;
+  top: 14px;
+}
+.input,
+.button {
+  height: 34px;
+}
+.is-info {
+  background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
+  padding: 10px;
+}
+.field.has-addons {
+  margin-left: 18px;
+}
