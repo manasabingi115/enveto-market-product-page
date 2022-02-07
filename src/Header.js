@@ -30,36 +30,16 @@ export default function Header() {
               />
             </div>
             <div className="control">
-              <button className="button is-info" style={{ width: "20px" }}>
+              <button className="button is-info">
                 <IoSearch style={{ color: "white" }} />
               </button>
             </div>
           </div>
           <div className="notification-email-profile-icons">
-            <div
-              style={{
-                height: "40px",
-                width: "40px",
-                borderRadius: "100%",
-                backgroundColor: "gray",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center"
-              }}
-            >
+            <div className="notification-email-icons">
               <IoMdNotificationsOutline style={{ fontSize: "larger" }} />
             </div>
-            <div
-              style={{
-                height: "40px",
-                width: "40px",
-                borderRadius: "100%",
-                backgroundColor: "gray",
-                display: "flex",
-                alignItems: "center",
-                justifyContent: "center"
-              }}
-            >
+            <div className="notification-email-icons">
               <FiMail />
             </div>
             <img

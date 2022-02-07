@@ -36,9 +36,10 @@
   position: absolute;
   top: 55px;
   left: 0px;
-  height: 100px;
+  height: 70px;
   right: 0px;
-  background-color: rgba(196, 191, 191, 0.233);
+  /* background-color: rgba(196, 191, 191, 0.233); */
+  border-block-end: 1px solid lightgray;
 }
 .miver-logo {
   height: 37px;
@@ -48,11 +49,15 @@
   display: flex;
   align-items: center;
   left: 205px;
-  top: 14px;
+  top: 6px;
+  right: 200px;
 }
 .input,
 .button {
   height: 34px;
+}
+.control {
+  margin-top: 10px;
 }
 .is-info {
   background: linear-gradient(to right, #2cdd9b 0%, #1dc8cc 100%);
@@ -60,4 +65,19 @@
 }
 .field.has-addons {
   margin-left: 18px;
+}
+.notification-email-profile-icons {
+  display: flex;
+  position: absolute;
+  right: 0px;
+}
+.notification-email-icons {
+  height: 40px;
+  width: 40px;
+  border-radius: 100%;
+  background-color: rgba(196, 191, 191, 0.233);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
 }
